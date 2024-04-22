@@ -1,0 +1,11 @@
+@media (min-width: 500px){
+
+    .container .container-content{
+       height: 70%;
+       width: 25%;
+    }
+
+    .container-content .illustration{
+        
+    }
+}
