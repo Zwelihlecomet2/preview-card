@@ -16,8 +16,8 @@ body{
 }
 
 .container .container-content{
-    height: 75%;
-    width: 80%;
+    height: 85%;
+    width: 87%;
     background-color: white;
     border-radius: 7%;
     box-shadow: 10px 15px hsl(0, 0%, 7%);
@@ -26,4 +26,54 @@ body{
 
 .container-content .illustration{
     text-align: center;
+}
+
+.container-content .texts{
+    margin-left: 15px;
+}
+
+.container-content .texts button{
+    height: 30px;
+    width: 100px;
+    border: none;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 5%;
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.texts p{
+    margin-top: 15px;
+    font-size: 1rem;
+    color: black;
+}
+
+.texts h3{
+    margin-top: 15px;
+    color: black;
+}
+
+.texts > p{
+    color: black;
+    font-size: 1rem;
+}
+
+.container-content .profile{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.profile img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.profile h4{
+    color: black;
+    font-size: 1rem;
+    margin-left: 15px;
 }
