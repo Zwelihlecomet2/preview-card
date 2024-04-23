@@ -1,17 +1,14 @@
-/* @media (min-width: 500px){
-
-    .container .container-content{
-       height: 70%;
-       width: 25%;
-    }
-
-
-} */
-
-@media (min-width: 600px) and (orientation: landscape){
+@media (min-width: 600px){
     .container .container-content{
         height: 75%;
         width: 25%;
+    }
+
+    @media (orientation: landscape){
+        .container .container-content{
+            height: 75%;
+            width: 25%;    
+        }
     }
 }
 
@@ -20,18 +17,15 @@
         height: 92%;
         width: 87%;    
     }
-}
 
-/* @media (orientation: landscape){
-    .container .container-content{
-        height: 75%;
-        width: 25%;    
-    }
-} */
-
-@media (orientation: potrait){
-    .container .container-content{
-        height: 92%;
-        width: 87%;    
+    @media (orientation: landscape){
+        .container .container-content{
+            height: 92%;
+            width: 87%;    
+        }
     }
 }
+
+
+
+
