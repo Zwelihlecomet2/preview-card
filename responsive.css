@@ -1,8 +1,22 @@
-@media (min-width: 500px){
+/* @media (min-width: 500px){
 
     .container .container-content{
        height: 70%;
        width: 25%;
     }
 
+
+} */
+
+@media (min-width: 600px){
+    .container .container-content{
+        height: 70%;
+        width: 25%;
+    }
+}
+
+@media (max-width: 599px){
+    .container .container-content{
+        height: 80%;
+        width: 87%;    }
 }

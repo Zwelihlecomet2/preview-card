@@ -16,8 +16,6 @@ body{
 }
 
 .container .container-content{
-    height: 85%;
-    width: 87%;
     background-color: white;
     border-radius: 7%;
     box-shadow: 10px 15px hsl(0, 0%, 7%);
