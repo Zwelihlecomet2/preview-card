@@ -18,5 +18,13 @@
 @media (max-width: 599px){
     .container .container-content{
         height: 92%;
-        width: 87%;    }
+        width: 87%;    
+    }
+}
+
+@media (orientation: landscape){
+    .container .container-content{
+        height: 92%;
+        width: 87%;    
+    }
 }
