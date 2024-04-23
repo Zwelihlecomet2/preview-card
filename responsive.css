@@ -10,13 +10,13 @@
 
 @media (min-width: 600px){
     .container .container-content{
-        height: 70%;
+        height: 75%;
         width: 25%;
     }
 }
 
 @media (max-width: 599px){
     .container .container-content{
-        height: 60%;
+        height: 92%;
         width: 87%;    }
 }
